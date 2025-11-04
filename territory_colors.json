@@ -62,19 +62,6 @@
       "Aleppo"
     ]
   },
-  "Island_Trade_Nodes": {
-    "color": "#ffa500",
-    "label": "Island Trade & Galleys",
-    "provinces": [
-      "Rhodes",
-      "Chios",
-      "Lesbos",
-      "Crete",
-      "Euboea",
-      "Naxos",
-      "Cyprus"
-    ]
-  },
   "Danube_Corridor": {
     "color": "#1e90ff",
     "label": "Danube Trade & Military Corridor",
@@ -101,81 +88,16 @@
       "Bessarabia"
     ]
   },
-  "Northern_Arc_Spokes": {
-    "color": "#2f4f4f",
-    "label": "Northern Arc Expansion",
-    "provinces": [
-      "Kiev",
-      "Astrakhan",
-      "Moskva",
-      "Novgorod",
-      "Ryazan",
-      "Pereyaslav",
-      "Cherkasy"
-    ]
-  },
-  "Western_Trade_Spokes": {
-    "color": "#87ceeb",
-    "label": "Western European Trade Spokes",
+  "Major_Powers": {
+    "color": "#AAAAAA",
+    "label": "Major European Powers",
     "provinces": [
       "Wien",
       "Prague",
       "Krakow",
       "München",
-      "Frankfurt",
-      "Köln",
-      "Antwerpen",
-      "Brussels",
-      "Amsterdam"
-    ]
-  },
-  "Levantine_Ports": {
-    "color": "#cd853f",
-    "label": "Levantine Port Network",
-    "provinces": [
-      "Damascus",
-      "Homs",
-      "Hama",
-      "Mosul",
-      "Diyarbakir",
-      "Baghdad"
-    ]
-  },
-  "Vassal_Buffers": {
-    "color": "#ffff00",
-    "label": "Vassal Buffer States",
-    "provinces": [
-      "Tîrgoviste",
-      "Suceava",
-      "Crimea",
-      "Ohrid",
-      "Kastoria",
-      "Zeta",
-      "Kosovo",
-      "Hum",
-      "Skopje"
-    ]
-  },
-  "Oriental_Trade": {
-    "color": "#8a2be2",
-    "label": "Oriental Trade Routes",
-    "provinces": [
-      "Basra",
-      "Khorramabad",
-      "Shiraz",
-      "Tabriz",
-      "Isfahan"
-    ]
-  },
-  "Suez_Route": {
-    "color": "#ff4500",
-    "label": "Suez/Red Sea Strategic Route",
-    "provinces": [
-      "Gaza",
-      "Sinai",
-      "Alexandria",
-      "Rosetta",
-      "Damietta"
+      "Pest",
+      "Sopron"
     ]
   }
 }
