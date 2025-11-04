@@ -52,3 +52,27 @@ sometimes names hit the fan. :)
 ![hit-the-fan](bloopers/names-hit-the-fan.png)
 
 Contacts: primislas@protonmail.com
+
+## Province Colorizer Utility
+
+Use `colorize_eu4_map.py` to recolor any of the shipped SVG maps (or
+your own maps generated with Oikoumene).
+
+```
+python colorize_eu4_map.py --input maps/1.34/eu4-1.34.5-political.svg --config territory_colors.json --output ottoman_campaign_colored.svg
+```
+
+* `--input` – source SVG to recolor (political, outline, or a custom map)
+* `--config` – JSON file that maps territories to colors and province lists (see `territory_colors.json` for a sample Ottoman-centric setup)
+* `--output` – path for the recolored SVG
+
+The script prints how many provinces were recolored and lists any province names from the config that were not found in the SVG. Names are matched case-insensitively against the `<title>` element embedded inside each province path.
+
+Recommended workflow:
+1. Start with a small province list (for example Anatolia) to verify that the colors look right.
+2. Expand to the full configuration.
+3. Export PNGs once satisfied (see `docs/pages/svg-rasterization.md` for browser-based capture instructions).
+
+
+
+
