@@ -118,7 +118,12 @@ def colorize(svg_path: Path, config_path: Path, output_path: Path) -> None:
         entry = color_lookup.get(norm)
         if not entry:
             continue
-        elem.set("fill", entry.color)
+        existing_style = elem.get("style")
+        new_style = f'fill:{entry.color}'
+        if existing_style:
+            elem.set("style", f"{existing_style}; {new_style}")
+        else:
+            elem.set("style", new_style)
         matched.setdefault(norm, ConfigEntry(norm, province_name, entry.territory, entry.color))
         colored_segments += 1
 
